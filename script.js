@@ -16,6 +16,8 @@ const output = document.getElementById("output");
 const swapBtn = document.getElementById("swapBtn");
 const copyBtn = document.getElementById("copyBtn");
 const translateBtn = document.getElementById("translateBtn");
+const suggestionsBox = document.getElementById("suggestions");
+
 
 // ===== INIT LANGUAGES =====
 for (let l in langs) {
@@ -56,3 +58,4 @@ function copyText() {
 swapBtn.addEventListener("click", swapLang);
 translateBtn.addEventListener("click", translateText);
 copyBtn.addEventListener("click", copyText);
+

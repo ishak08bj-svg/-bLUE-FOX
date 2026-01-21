@@ -169,5 +169,27 @@ textarea:focus{
 @media(max-width:800px){
     .boxes{
         grid-template-columns:1fr;
+.suggestions{
+    margin-top:6px;
+    font-size:14px;
+    color:#334155;
+}
+
+.suggestions span{
+    display:inline-block;
+    background:#e0e7ff;
+    color:#1e3a8a;
+    padding:4px 8px;
+    margin:4px 4px 0 0;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.2s;
+}
+
+.suggestions span:hover{
+    background:#c7d2fe;
+}
+
     }
 }
+

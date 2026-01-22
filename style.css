@@ -1,0 +1,5 @@
+body{font-family:Arial;background:#111;color:#fff}
+.app{max-width:500px;margin:auto;padding:20px}
+textarea{width:100%;margin:10px 0;padding:10px}
+#suggestions div{background:#222;padding:5px;cursor:pointer}
+#suggestions div:hover{background:#444}
